@@ -1,0 +1,152 @@
+@import 'variables.scss';
+
+.header {
+  padding: 0 15px;
+  @media (min-width: 600px) {
+    background: rgba(243, 198, 189, 1);
+    padding-top: 39px;
+    padding-bottom: 78px;
+  }
+
+  // .header__menu
+
+  &__menu {
+    display: flex;
+    margin: 0 auto;
+    height: 62px;
+  }
+
+  // .header__logo
+
+  &__logo {
+    flex: 1;
+  }
+
+  // .header__navigation
+
+  &__navigation {
+  }
+
+  // .header__button
+
+  &__button {
+  }
+
+  // .header__btn
+
+  &__btn {
+    display: none;
+    @media (min-width: 600px) {
+      display: block;
+      background: rgba(48, 64, 196, 1);
+      color: #fff;
+      width: 160px;
+      line-height: 48px;
+      text-align: center;
+      border-radius: 2px;
+      font-size: 18px;
+    }
+  }
+  &__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 59px;
+    img {
+      width: 18px;
+      height: 13px;
+    }
+    border-left: 1px solid #00000026;
+    @media (min-width: 599px) {
+      display: none;
+    }
+  }
+}
+.logo {
+  @media (max-width: 599px) {
+    padding-top: 8px;
+
+    padding-bottom: 8px;
+  }
+  display: flex;
+  align-items: center;
+
+  // .logo__icon
+
+  &__icon {
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    margin-right: 13px;
+    @media (min-width: 600px) {
+      width: 61px;
+      height: 61px;
+      margin-right: 15px;
+    }
+  }
+
+  // .logo__content
+
+  &__content {
+  }
+
+  // .logo__title
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  // .logo__subtitle
+
+  &__subtitle {
+    display: none;
+    @media (min-width: 700px) {
+      display: block;
+      font-size: 18px;
+      line-height: 25px;
+      color: $greyColor;
+    }
+  }
+}
+.navigation {
+  display: none;
+  @media (min-width: 600px) {
+    display: flex;
+    height: inherit;
+    align-items: flex-start;
+    margin-right: 75px;
+    @media (max-width: 850px) {
+      margin-right: 35px;
+    }
+  }
+
+  // .navigation__link
+
+  &__link {
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 50px;
+    &:first-child {
+      padding: 0;
+    }
+    @media (max-width: 850px) {
+      padding-left: 22px;
+      font-size: 14px;
+    }
+    // .navigation__link_selected
+
+    &_selected {
+      font-weight: 700;
+    }
+  }
+
+  // .navigation__arrow
+
+  &__arrow {
+    position: relative;
+    top: 10px;
+    right: -11px;
+  }
+}

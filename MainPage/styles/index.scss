@@ -1,0 +1,27 @@
+@import 'null.scss';
+@import 'variables.scss';
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  color: $mainColor;
+  font-weight: 400;
+}
+body {
+}
+.page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 -15px;
+}
+
+._container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'features-mobile.scss';

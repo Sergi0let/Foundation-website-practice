@@ -1,0 +1,147 @@
+.features {
+  display: none;
+  @media (min-width: 460px) {
+    display: block;
+    position: relative;
+    margin-bottom: 112px;
+  }
+
+  // .features__block
+
+  &__block {
+    padding: 0 15px;
+    @media (min-width: 400px) {
+    }
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    @media (min-width: 998px) {
+      flex-direction: fow;
+    }
+  }
+
+  // .features__face
+
+  &__face {
+    position: absolute;
+    left: -130px;
+    bottom: 185px;
+  }
+
+  // .features__content
+
+  &__content {
+    z-index: 1;
+    width: 100%;
+    @media (min-width: 998px) {
+      width: 40%;
+    }
+  }
+
+  // .features__suptext
+
+  &__suptext {
+    color: #009b4d;
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 700;
+  }
+
+  // .features__title
+
+  &__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin-top: 24px;
+  }
+
+  // .features__text
+
+  &__text {
+    line-height: 34px;
+    margin-top: 30px;
+  }
+
+  // .features__compas
+
+  &__compas {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    padding-bottom: 8px;
+  }
+
+  // .features__compas-text
+
+  &__compas-text {
+    color: #3142c6;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    padding-left: 15px;
+  }
+  &__blueline {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #3142c6;
+  }
+  // .features__code
+
+  &__code {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  // .features__users
+
+  &__users {
+    display: flex;
+    align-items: center;
+    padding-bottom: 22px;
+    margin-top: 21px;
+    border-bottom: 1px solid #2b292d26;
+  }
+
+  // .features__users-text
+
+  &__users-text {
+    line-height: 26px;
+    font-weight: 700;
+    padding-left: 15px;
+  }
+
+  // .features__develop
+
+  &__develop {
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #2b292d26;
+  }
+
+  // .features__develop-text
+
+  &__develop-text {
+    line-height: 26px;
+    font-weight: 700;
+    padding-left: 15px;
+  }
+
+  // .features__img
+
+  &__img {
+    margin-top: 10px;
+    img {
+      max-width: 100%;
+    }
+    @media (min-width: 998px) {
+      position: absolute;
+      right: -130px;
+    }
+  }
+}

@@ -357,6 +357,20 @@ html {
     padding-bottom: 106px;
   }
 }
+.customers__block-two {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 750px) {
+  .customers__block-two {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 76px;
+  }
+}
 .customers__row {
   margin: auto;
   display: flex;
@@ -382,7 +396,7 @@ html {
   .customers__item {
     border-bottom: 1px solid rgb(227, 227, 227);
     border-right: 1px solid rgb(227, 227, 227);
-    width: 107px;
+    width: 105px;
     height: 94px;
   }
   .customers__item img {
@@ -883,15 +897,18 @@ a.advantages__link {
 .info-audience__title {
   margin-top: 17px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.36px;
   text-align: center;
   max-width: 455px;
 }
 @media (min-width: 768px) {
   .info-audience__title {
     margin-top: 24px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
   }
 }
 .info-audience__text {

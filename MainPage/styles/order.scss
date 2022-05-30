@@ -1,0 +1,134 @@
+.order {
+  padding: 50px 15px 50px 15px;
+  @media (min-width: 806px) {
+    padding: 73px 15px 72px 15px;
+  }
+
+  // .order__block
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 950px;
+    margin: 0 auto;
+    @media (min-width: 806px) {
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: start;
+    }
+  }
+
+  // .order__picture
+
+  &__picture {
+    @media (min-width: 806px) {
+      flex: 0 0 393px;
+    }
+  }
+
+  // .order__image
+
+  &__image {
+  }
+
+  // .order__content
+
+  &__content {
+  }
+}
+
+.content-order {
+  // .content-order__title
+
+  &__title {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    @media (min-width: 806px) {
+      padding-top: 37px;
+    }
+  }
+
+  // .content-order__text
+
+  &__text {
+    padding-top: 18px;
+    font-size: 22px;
+    line-height: 32px;
+    @media (min-width: 806px) {
+      padding-top: 12px;
+    }
+  }
+
+  // .content-order__form
+
+  &__form {
+    padding-top: 79px;
+    padding-bottom: 10px;
+    @media (min-width: 806px) {
+      padding-top: 26px;
+    }
+  }
+
+  // .content-order__block-free
+
+  &__block-free {
+    // display: flex;
+    font-size: 14px;
+    line-height: 22px;
+    // flex-wrap: wrap;
+  }
+
+  // .content-order__free
+
+  &__free {
+    padding-right: 4px;
+  }
+
+  // .content-order__terms
+
+  &__terms {
+    text-decoration: underline;
+    color: rgba(49, 66, 198, 1);
+  }
+}
+
+.form-order {
+  // .form-order__input
+
+  &__input {
+    padding: 17px 15px 18px 15px;
+    border-radius: 2px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    height: 48px;
+    width: 100%;
+    @media (min-width: 806px) {
+      width: 385px;
+    }
+    &::placeholder {
+      color: inherit;
+      font-size: 18px;
+      line-height: 16px;
+    }
+  }
+
+  // .form-order__button
+
+  &__button {
+    margin-top: 12px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040c4;
+    color: #fff;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05);
+    font-size: 18px;
+    width: 100%;
+    @media (min-width: 806px) {
+      width: 160px;
+    }
+  }
+}

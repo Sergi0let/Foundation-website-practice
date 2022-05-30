@@ -100,14 +100,10 @@
   }
   // .logo__subtitle
 
-  &__subtitle {
-    display: none;
-    @media (min-width: 700px) {
-      display: block;
-      font-size: 18px;
-      line-height: 25px;
-      color: $greyColor;
-    }
+  &__subtitl {
+    font-size: 18px;
+    line-height: 25px;
+    color: $greyColor;
   }
 }
 .navigation {

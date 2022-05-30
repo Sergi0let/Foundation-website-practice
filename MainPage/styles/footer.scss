@@ -1,0 +1,157 @@
+.footer {
+  // .footer__top
+
+  &__top {
+  }
+
+  // .footer__bottom
+
+  &__bottom {
+  }
+}
+.top {
+  padding: 43px 15px 59px 15px;
+  // .top__block
+
+  &__block {
+    display: flex;
+    margin: 0 -15px;
+    @media (max-width: 780px) {
+      flex-direction: column;
+    }
+  }
+
+  // .top__column
+
+  &__column {
+    padding: 0 15px;
+    &:first-child {
+      flex: 0 1 380px;
+      @media (min-width: 850px) {
+        flex: 1 0 485px;
+      }
+    }
+    flex: 1 0 20%;
+  }
+
+  // .top__logo
+
+  &__logo {
+    @media (max-width: 780px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  // .top__text
+
+  &__text {
+    margin-top: 26px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(43, 41, 45, 0.6);
+    width: 328px;
+    @media (max-width: 780px) {
+      display: none;
+    }
+  }
+
+  // .top__market
+
+  &__market {
+    margin-top: 25px;
+  }
+
+  // .top__app-store
+
+  &__app-store {
+    margin-right: 10px;
+  }
+
+  // .top__google
+
+  &__google {
+  }
+
+  // .top__title
+
+  &__title {
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  // .top__list
+
+  &__list {
+    margin-top: 21px;
+  }
+
+  // .top__item
+
+  &__item {
+    margin-top: 8px;
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.logo {
+  // .logo__icon
+
+  &__icon {
+  }
+
+  // .logo__content
+
+  &__content {
+  }
+
+  // .logo__title
+
+  &__title {
+  }
+
+  // .logo__subtitle
+
+  &__subtitl {
+    font-size: 18px;
+    line-height: 25px;
+    color: $greyColor;
+  }
+}
+.bottom {
+  border-top: 1px solid rgba(43, 41, 45, 0.1);
+  // .bottom__block
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+
+  // .bottom__license
+
+  &__license {
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 14px;
+    margin-right: 18px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  // .bottom__social
+
+  &__social {
+    display: block;
+    a {
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

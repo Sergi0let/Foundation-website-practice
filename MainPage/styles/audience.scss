@@ -1,6 +1,6 @@
 .audience {
   background-color: #00a1c60f;
-  padding: 50px 0px 35px 0px;
+  padding: 49px 0px 35px 0px;
   @media (min-width: 768px) {
     padding: 108px 0px 110px 0px;
   }
@@ -54,7 +54,7 @@
   // .info-audience__text
 
   &__text {
-    margin-top: 30px;
+    margin-top: 23px;
     line-height: 34px;
     max-width: 540px;
     text-align: center;
@@ -89,6 +89,7 @@
     line-height: 48px;
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 12px;
+    font-family: inherit;
     &:last-child {
       margin-bottom: 0;
     }

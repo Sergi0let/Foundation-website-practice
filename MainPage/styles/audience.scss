@@ -54,10 +54,13 @@
   // .info-audience__text
 
   &__text {
-    margin-top: 23px;
+    margin-top: 26px;
     line-height: 34px;
     max-width: 540px;
     text-align: center;
+    @media (max-width: 467px) {
+      margin-top: 18px;
+    }
   }
 
   // .info-audience__buttons

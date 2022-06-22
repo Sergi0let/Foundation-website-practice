@@ -1,7 +1,4 @@
 .footer {
-  // padding: 0 15px;
-  // .footer__top
-
   &__top {
   }
 
@@ -11,7 +8,7 @@
   }
 }
 .top {
-  padding: 43px 15px 59px 15px;
+  padding: 33px 15px 59px 15px;
   @media (max-width: 767px) {
     padding-bottom: 30px;
   }

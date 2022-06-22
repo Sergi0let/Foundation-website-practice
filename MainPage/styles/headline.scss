@@ -17,10 +17,11 @@
   // .headline__title
 
   &__title {
+    font-weight: 700;
     padding-top: 35px;
     font-size: 50px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 85%;
     letter-spacing: -0.31px;
 
     @media (min-width: 600px) {
@@ -45,16 +46,17 @@
   &__text {
     max-width: 456px;
     font-style: 24px;
-    @media (max-width: 600px) {
-    }
     line-height: 34px;
     margin-top: 34px;
+    @media (max-width: 600px) {
+      margin-top: 29px;
+    }
   }
 
   // .headline__controls
 
   &__controls {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 18px;
     @media (min-width: 600px) {
       padding-top: 0;
@@ -92,7 +94,7 @@
     @media (min-width: 600px) {
       position: absolute;
       right: 40px;
-      top: 8px;
+      top: 0px;
       padding-bottom: 36px;
       opacity: 0.6;
     }

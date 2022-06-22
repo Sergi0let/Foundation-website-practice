@@ -52,7 +52,7 @@
   // .top__text
 
   &__text {
-    margin-top: 26px;
+    margin-top: 22px;
     font-size: 18px;
     line-height: 26px;
     color: rgba(43, 41, 45, 0.6);
@@ -65,8 +65,7 @@
   // .top__market
 
   &__market {
-    margin-top: 28px;
-    display: inline-block;
+    margin-top: 25px;
   }
 
   // .top__app-store
@@ -86,12 +85,13 @@
     padding-top: 20px;
     font-size: 22px;
     font-weight: 700;
+    line-height: 109%;
   }
 
   // .top__list
 
   &__list {
-    margin-top: 21px;
+    margin-top: 18px;
   }
 
   // .top__item
@@ -99,7 +99,7 @@
   &__item {
     color: rgba(43, 41, 45, 0.6);
     font-size: 18px;
-    line-height: 30px;
+    line-height: 142%;
   }
 }
 

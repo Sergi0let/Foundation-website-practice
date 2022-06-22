@@ -46,8 +46,6 @@
     max-width: 456px;
     font-style: 24px;
     @media (max-width: 600px) {
-      padding-right: 24px;
-      padding-top: 24px;
     }
     line-height: 34px;
     margin-top: 34px;
@@ -93,7 +91,7 @@
     padding-bottom: 36px;
     @media (min-width: 600px) {
       position: absolute;
-      right: 0;
+      right: 40px;
       top: 8px;
       padding-bottom: 36px;
       opacity: 0.6;

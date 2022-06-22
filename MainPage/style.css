@@ -1377,9 +1377,6 @@ a.advantages__link {
   }
 }
 
-.footer {
-  padding: 0 15px;
-}
 .top {
   padding: 43px 15px 59px 15px;
 }
@@ -1390,7 +1387,6 @@ a.advantages__link {
 }
 .top__block {
   display: flex;
-  margin: 0 -15px;
 }
 @media (max-width: 780px) {
   .top__block {
@@ -1402,7 +1398,8 @@ a.advantages__link {
 }
 @media (min-width: 850px) {
   .top__column:first-child {
-    flex: 1 0 485px;
+    flex: 1;
+    margin-right: 160px;
   }
 }
 @media (max-width: 767px) {
@@ -1416,7 +1413,7 @@ a.advantages__link {
 @media (max-width: 780px) {
   .top__logo {
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
 }
 .top__text {
@@ -1433,6 +1430,7 @@ a.advantages__link {
 }
 .top__market {
   margin-top: 25px;
+  display: inline-block;
 }
 .top__app-store {
   margin-right: 10px;
@@ -1446,7 +1444,6 @@ a.advantages__link {
   margin-top: 21px;
 }
 .top__item {
-  margin-top: 8px;
   color: rgba(43, 41, 45, 0.6);
   font-size: 18px;
   line-height: 30px;

@@ -1,5 +1,5 @@
 .footer {
-  padding: 0 15px;
+  // padding: 0 15px;
   // .footer__top
 
   &__top {
@@ -19,7 +19,6 @@
 
   &__block {
     display: flex;
-    margin: 0 -15px;
     @media (max-width: 780px) {
       flex-direction: column;
     }
@@ -30,7 +29,8 @@
   &__column {
     &:first-child {
       @media (min-width: 850px) {
-        flex: 1 0 485px;
+        flex: 1;
+        margin-right: 160px;
       }
       @media (max-width: 767px) {
         padding-bottom: 40px;
@@ -47,7 +47,8 @@
   &__logo {
     @media (max-width: 780px) {
       display: flex;
-      align-items: center;
+
+      justify-content: center;
     }
   }
 
@@ -68,6 +69,7 @@
 
   &__market {
     margin-top: 25px;
+    display: inline-block;
   }
 
   // .top__app-store
@@ -98,7 +100,6 @@
   // .top__item
 
   &__item {
-    margin-top: 8px;
     color: rgba(43, 41, 45, 0.6);
     font-size: 18px;
     line-height: 30px;
